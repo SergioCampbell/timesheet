@@ -62,7 +62,7 @@ SA: Saturday
 SU: Sunday
 ```
 
-Input: the name of an employee and the schedule they worked, indicating the time and hours. This should be a .txt file with at least five sets of data. You can include the data from our two examples below.
+Input: the name of an employee and the schedule they worked, indicating the time and hours.
 
 Output: indicate how much the employee has to be paid
 
