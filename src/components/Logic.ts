@@ -6,13 +6,10 @@ export function Logic(startDate: Date, endDate: Date) {
     const hours = Math.floor(diff / 1000 / 60 / 60);
 
     diff -= hours * 1000 * 60 * 60;
-    const minutes = Math.floor(diff / 1000 / 60);
-
-    console.log(`diff is ${hours} hours and ${minutes} minutes😇`)
+    //const minutes = Math.floor(diff / 1000 / 60);
 
     return hours;
 }
-
 
 export function calculateSalary(scheduleDay: string, startTime: string, endTime: string){
     const [sTimeHour, sTimeMin] = startTime.split(':')
@@ -23,7 +20,7 @@ export function calculateSalary(scheduleDay: string, startTime: string, endTime:
 
     const hours = Logic(startDate, endDate)
 
-    console.log(scheduleDay, hours)
+    //console.log('total hours',hours)
     
     let aux = startDate;
     let algo = 0;
@@ -33,7 +30,6 @@ export function calculateSalary(scheduleDay: string, startTime: string, endTime:
             aux. setHours(aux. getHours()+1);
         }
         let hora = aux.getHours()
-        console.log('-------', hora)
         if(hora >= 0 && hora < 9) algo += 25
         if(hora >= 9 && hora <= 18) algo += 15
         if(hora >= 18) algo += 20
@@ -41,7 +37,7 @@ export function calculateSalary(scheduleDay: string, startTime: string, endTime:
         
     }
 
-    console.log(`Has to pay $${algo} to the user for work on ${scheduleDay}`)
+    //console.log(`Has to pay $${algo} to the user for work this week`)
 
     return algo
 }
