@@ -1,6 +1,14 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Timesheet project!
+[![Screenshot-2022-11-15-at-19-59-44-React-with-Webpack.png](https://i.postimg.cc/d3v6LNzM/Screenshot-2022-11-15-at-19-59-44-React-with-Webpack.png)](https://postimg.cc/34Smq189)
 
-This project has been created using **webpack-cli**, you can now run
+
+This project has been created using **webpack-cli**, **typescript** and **react**.
+
+Before start you have to run this commnad to install all dev dependencies ``npm install`` 
+
+it's important to validate because there are some loader to convert typescript code to javascript code.
+
+Once installed run this command to start locally:
 
 ```
 npm run build
@@ -12,7 +20,7 @@ or
 yarn build
 ```
 
-to bundle your application
+to bundle the application
 
 ## Notes
 
@@ -79,3 +87,5 @@ INPUT
 OUTPUT:
 
 ``The amount to pay ASTRID is: 85 USD``
+
+
