@@ -10,17 +10,10 @@ it's important to validate because there are some loader to convert typescript c
 
 Once installed run this command to start locally:
 
-```
-npm run build
-```
+now you can run ``npm run dev``
 
-or
+and to bundle the application run ``npm run build`` or ``yarn build``
 
-```
-yarn build
-```
-
-to bundle the application
 
 ## Notes
 
